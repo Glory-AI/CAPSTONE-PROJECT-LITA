@@ -41,8 +41,26 @@ and identify key trends in cancellations and renewals.
      - UnitPrice - The price of individual product purchased by each customer.
 * *Initial observation and cleaning of data*
 
-  I performed observation of the sales dataset in MS Excel. I found out that there was no column for the total sales made by each customer, so I created a new column
+  I performed observation of the sales dataset in ***Microsoft Excel***. I found out that there was no column for the total sales made by each customer, so I created a new column:
      - Total Sales- The total amount of money paid by each customer on each day for specific goods ( Obtained by the Excel Formula [Quantity * UnitPrice] )
+  Next, I observed certain trends making use of formulas and pivot tables
+  ![image](https://github.com/user-attachments/assets/9568bf4c-706e-4ed0-9f15-bb3413489322)
+  ![image](https://github.com/user-attachments/assets/2308aa54-c705-41d5-9e78-a6cbf5d95820)
+I was able to obtain total sales by product, region and month ad I was able to detect that
+
+ * Sales reduced overall in 2023 and 2024 respectively which might e due to reduction in resources, staff, decline in economy or not able to keep up with technology, all these have to be considered and improved on if truly sales want to be mainntained accross each year in the retail store.
+
+ * Likewise, it is seen that certain goods sold best in some regions. For example in the East, shirt sold better. Thhereore to maximize sales, the retail store sould channel more of specific ggoods to regions where more sales are made from those products.
+
+ * The South produced the greatest revenue ; which might be due to a larger store there, more workers, people living there, position of the store etc. To ennsure this kind of effect on other regions too, the goods people patroize est in those regions should be produced more, there can be more workers or even discounts can be given in extremely low region stores like those in the West to encourage customers to purchase more. 
+
+ The top selling product is 'shoes' ; therefore the retail store can invest more in the product to ensure increased sales.
+
+ The number of customers considered in this dataset are 50,000
+ In 2023
+ In 2024
+ 
+
 
   
  
