@@ -46,19 +46,47 @@ and identify key trends in cancellations and renewals.
   Next, I observed certain trends making use of formulas and pivot tables
   ![image](https://github.com/user-attachments/assets/9568bf4c-706e-4ed0-9f15-bb3413489322)
   ![image](https://github.com/user-attachments/assets/2308aa54-c705-41d5-9e78-a6cbf5d95820)
-I was able to obtain total sales by product, region and month ad I was able to detect that
 
- * Sales reduced overall in 2023 and 2024 respectively which might e due to reduction in resources, staff, decline in economy or not able to keep up with technology, all these have to be considered and improved on if truly sales want to be mainntained accross each year in the retail store.
+I was able to obtain total sales by product, region and month and I was able to detect that:
 
- * Likewise, it is seen that certain goods sold best in some regions. For example in the East, shirt sold better. Thhereore to maximize sales, the retail store sould channel more of specific ggoods to regions where more sales are made from those products.
+   1. Sales reduced overall in 2023 and 2024 respectively which might be due to reduction in resources, staff, decline in economy or not able to keep up with technology, all these have to be considered and improved on if truly sales want to be maintained accross each year in the retail store.  
 
- * The South produced the greatest revenue ; which might be due to a larger store there, more workers, people living there, position of the store etc. To ennsure this kind of effect on other regions too, the goods people patroize est in those regions should be produced more, there can be more workers or even discounts can be given in extremely low region stores like those in the West to encourage customers to purchase more. 
-
- The top selling product is 'shoes' ; therefore the retail store can invest more in the product to ensure increased sales.
+   2. Likewise, it is seen that certain goods sold best in some regions. For example in the East, shirt sold better. Thhereore to maximize sales, the retail store sould channel more of specific goods to regions where more sales are made from those products.
+    
+   3. The South produced the greatest revenue ; which might be due to a larger store there, more workers, people living there, position of the store etc. To ennsure this kind of effect on other regions too, the goods people patroize est in those regions should be produced more, there can be more workers or even discounts can be given in extremely low region stores like those in the West to encourage customers to purchase more. 
+    
+   4. The top selling product is 'shoes' ; therefore the retail store can invest more in the product to ensure increased sales.
 
  The number of customers considered in this dataset are 50,000
  In 2023
  In 2024
+
+ * *Exploratory Data Analysis*
+
+   For this purpose, I'll be making use of SQL Queries
+   Table is created and data is imported as flat file(csv)
+a. What is the total sales for each product category?
+   ``` SQL
+   select sum(Total_Sales) as PRODUCTSALES, [Product]
+   from [dbo].[LITA Capstone Dataset (1)]
+   group by [Product]
+   order by sum(total_sales) desc
+   ```
+   
+   Inference: It can be seen that shoes sold best with a sum total of # 3,087,500 i.e it is the highest selling product.
+
+b. What are sales trasanctions in each region?
+   ``` SQL
+   select sum(Total_Sales) as  [SALES BY REGION],  [Region]
+   from [dbo].[LITA Capstone Dataset (1)]
+   group by  [Region]
+   order by sum(total_sales) desc
+   ```
+
+   
+ ![image](https://github.com/user-attachments/assets/a06d6b1b-ca63-4905-a379-6b1cfcd44b62)
+
+
  
 
 
