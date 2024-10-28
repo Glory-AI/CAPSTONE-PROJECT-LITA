@@ -43,10 +43,10 @@ and identify key trends in cancellations and renewals.
 
   I performed observation of the sales dataset in ***Microsoft Excel***. I found out that there was no column for the total sales made by each customer, so I created a new column:
      - Total Sales- The total amount of money paid by each customer on each day for specific goods ( Obtained by the Excel Formula [Quantity * UnitPrice] )
+  I cleaned the data and also checked for duplicates where I was able to remove 40079 duplicate rows leavin 9921 rows for analysis. 
   Next, I observed certain trends making use of formulas and pivot tables
-  ![image](https://github.com/user-attachments/assets/9568bf4c-706e-4ed0-9f15-bb3413489322)
-  ![image](https://github.com/user-attachments/assets/2308aa54-c705-41d5-9e78-a6cbf5d95820)
-
+![image](https://github.com/user-attachments/assets/25095c77-7a25-4252-bbab-b3e9719ac6e7)
+ 
 I was able to obtain total sales by product, region and month and I was able to detect that:
 
    1. Sales reduced overall in 2023 and 2024 respectively which might be due to reduction in resources, staff, decline in economy or not able to keep up with technology, all these have to be considered and improved on if truly sales want to be maintained accross each year in the retail store.  
