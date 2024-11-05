@@ -39,11 +39,12 @@ and identify key trends in cancellations and renewals.
      - OrderDate - The date (DD/ MM/ YYYY) goods were purchased from the retail store.
      - Quantity - The amount of product purchased
      - UnitPrice - The price of individual product purchased by each customer.
+       
 * *Initial observation and cleaning of data*
 
-  I performed observation of the sales dataset in ***Microsoft Excel***.
-  
-  I cleaned the data and also checked for duplicates: I was able to remove 40079 duplicate rows leaving 9921 rows for analysis.
+ I performed observation of the sales dataset in ***Microsoft Excel***.
+
+ I cleaned the data and also checked for duplicates: I was able to remove 40079 duplicate rows leaving 9921 rows for analysis.
   
   I found out that there was no column for the total sales made by each customer, so I created a new column:
      - Total Sales- The total amount of money paid by each customer on each day for specific goods ( Obtained by the Excel Formula [Quantity * UnitPrice] ).
@@ -138,7 +139,7 @@ f. What products contributed no sales to total revenue in the last quarter(withi
 
 * *Question definition*
   
-  This project aims to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals.
+  This project aims to answer questions to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals.
  
 * *Data Source*
   
@@ -154,6 +155,7 @@ f. What products contributed no sales to total revenue in the last quarter(withi
    - Revenue - The total amount of money generated from subscription services.
 
 * *Initial observation and cleaning of data*
+  
   I performed observation of the sales dataset in ***Microsoft Excel***.
   
   I cleaned the data and also checked for duplicates. I also used pivot tables and formulas to obtain some insights.
