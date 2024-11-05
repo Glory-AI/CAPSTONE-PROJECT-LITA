@@ -31,7 +31,7 @@ and identify key trends in cancellations and renewals.
 
 * *Data Source*
 
-  The dataset used was provided by the learning organization behind this project. It comprises the following data points:
+  The dataset used was provided by the learning organization behind this project. It comprises the following columns:
      - OrderID - A unique identifier of goods ordered for purchase by customers.
      - Customer Id - A unique identifier assigned to each customer that patronizes the retail store. 
      - Product - Goods purchased by customers
@@ -55,8 +55,6 @@ and identify key trends in cancellations and renewals.
   ![image](https://github.com/user-attachments/assets/e33388f5-6040-4963-bcab-7d798c1f808b)
 
   ![image](https://github.com/user-attachments/assets/d38ba432-7e3d-4a09-afe1-c2ba55271687)
-
- 
 
  * *Exploratory Data Analysis*
 
@@ -130,26 +128,30 @@ f. What products contributed no sales to total revenue in the last quarter(withi
    4. The top selling product is 'shoes' ; therefore the retail store can invest more in the product to ensure increased sales.
 
    5. The number of customers considered in this dataset are 9921: in 2023 , 5952 customers patronized the retail store and in 2024 , 3969 customers has patronized the retail store from January to August. Efforts should be made to increase the number of customers.  
-   
+
+   * *Visualization Generation*
+     ![image](https://github.com/user-attachments/assets/bd5b22f4-cbbf-449d-a3b6-317da857b7b4)
+
 
 ### Project 2: Customer Segmentation for a Subscription Service   
    ---
-   
+
 * *Question definition*
   
   This project aims to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals.
  
 * *Data Source*
   
- The dataset used was provided by the learning organization behind this project. It comprises the following data points:
-    - Customer Id - A unique identifier assigned to each customer that patronizes the subscription service.
-    - Customer Name - The names of customers
-    - Region - Geographical area where the subscription services was paid for.
-    - Subscription type - type of subscription made by each customer( basic, premium, and standard)
-    - Subscription Start - Period when each customer started a subscription type
-    - Subscription End - Period when each customer ended subscribing to a subscription type.
-    - Canceled - A column indication whether or not a customer canceled their subscription.
-    - Revenue - The total amount of money generated from subscription services.
+     The dataset used was provided by the learning organization behind this project. It comprises the following columns:
+  
+   - Customer Id - A unique identifier assigned to each customer that patronizes the subscription service.
+   - Customer Name - The names of customers
+   - Region - Geographical area where the subscription services was paid for.
+   - Subscription type - type of subscription made by each customer( basic, premium, and standard)
+   - Subscription Start - Period when each customer started a subscription type.
+   - Subscription End - Period when each customer ended subscribing to a subscription type.
+   - Canceled - A column indication whether or not a customer canceled their subscription.
+   - Revenue - The total amount of money generated from subscription services.
 
 * *Initial observation and cleaning of data*
   I performed observation of the sales dataset in ***Microsoft Excel***.
@@ -244,6 +246,7 @@ h. What is the total number of active and canceled subscriptions?
  
  4. The East region did not experience canceled subscriptions at all, but the other regions experienced cancellations. Therefore, whatever strategies were applied for the East region should also be applied to the other region to minimize cancellations.
 
+  * *Visualization Generation*
 ![image](https://github.com/user-attachments/assets/0aac7caf-c580-4e84-857c-703f84411954)
 
     
